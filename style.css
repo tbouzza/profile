@@ -1,0 +1,109 @@
+@font-face {
+font-family: "JaapokkiRegular-Regular";
+src: url("../web-css/fonts/Jaapokki-font-package-1.0/regular/web/Jaapokki-Regular.eot");
+src:
+url("../web-css/fonts/Jaapokki-font-package-1.0/regular/web/Jaapokki-Regular.woff") format("woff"),
+url("../web-css/fonts/Jaapokki-font-package-1.0/regular/Jaapokki-Regular.otf") format("opentype"),
+url("../web-css/fonts/Jaapokki-font-package-1.0/regular/web/Jaapokki-Regular.svg") format("svg");
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 360px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 270px;
+  }
+}
+
+body {
+    background: #0C274D;
+    font-family: 'Niramit', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+div {
+    display: block;
+}
+
+table {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+h1 {
+    font-family: 'JaapokkiRegular-Regular', monospace;
+    letter-spacing: 10px
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.container {
+    width: 200px;   /* This sets the width */
+    margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card {
+    background: #3E5A81;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.img-book {
+    border-radius: 2%;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.list-inline {
+    padding-left: 0px;
+}
+
